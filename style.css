@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+}
+.day-night-button{
+    width: 100px;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}
+.form_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.input_error{
+    border-color: red;
+}
+button[type=submit]{
+    width: 100%;
+    height: 25px;
+    background-color: cadetblue;
+}
+button[type=submit]:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
